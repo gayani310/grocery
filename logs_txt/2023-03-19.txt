@@ -1,0 +1,64 @@
+INFO    2023-03-19 07:00:50,796 [AWT-EventQueue-0] com.grocery.main.sub.Login  login - EMP7 Login Successfully
+WARN    2023-03-19 07:10:09,711 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 07:10:09,711 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 07:10:09,711 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 07:10:09,711 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 07:10:09,711 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+INFO    2023-03-19 08:21:42,805 [AWT-EventQueue-0] com.grocery.main.sub.Login  login - EMP7 Login Successfully
+WARN    2023-03-19 08:26:24,433 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:24,435 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:24,438 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:24,440 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:24,442 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:24,445 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:24,447 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:24,449 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,201 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,214 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,224 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,237 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,254 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,355 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,372 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:26:39,391 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,000 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,001 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,003 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,007 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,011 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,013 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,015 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,017 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,018 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,019 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,020 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,020 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,021 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,022 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,023 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,024 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:27:50,026 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,286 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,287 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,287 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,288 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,289 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,289 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,290 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,291 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,291 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,292 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,293 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,294 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,295 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,295 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,297 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,297 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+WARN    2023-03-19 08:28:01,299 [AWT-EventQueue-0] net.sf.jasperreports.engine.xml.JRTextFieldFactory  createObject - The 'isStretchWithOverflow' attribute is deprecated. Use the 'textAdjust' attribute instead.
+INFO    2023-03-19 08:28:38,995 [AWT-EventQueue-0] com.grocery.main.sub.Home  btn_logoutActionPerformed - EMP7 Logout Successfully
+INFO    2023-03-19 08:29:00,388 [AWT-EventQueue-0] com.grocery.main.sub.Login  login - EMP7 Login Successfully
+INFO    2023-03-19 08:29:00,388 [AWT-EventQueue-0] com.grocery.main.sub.Login  login - EMP7 Login Successfully
+INFO    2023-03-19 08:29:07,430 [AWT-EventQueue-0] com.grocery.main.sub.Home  btn_logoutActionPerformed - EMP7 Logout Successfully
+INFO    2023-03-19 08:29:07,430 [AWT-EventQueue-0] com.grocery.main.sub.Home  btn_logoutActionPerformed - EMP7 Logout Successfully
+INFO    2023-03-19 08:29:43,587 [AWT-EventQueue-0] com.grocery.main.sub.Login  login - EMP7 Login Successfully
+INFO    2023-03-19 08:29:53,980 [AWT-EventQueue-0] com.grocery.main.sub.Home  btn_logoutActionPerformed - EMP7 Logout Successfully

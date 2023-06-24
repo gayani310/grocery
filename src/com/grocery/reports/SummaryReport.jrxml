@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="440" pageHeight="700" columnWidth="400" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="df7af71d-c626-4942-9c01-aeddb04b48b5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="to_date" class="java.lang.String"/>
+	<parameter name="from_date" class="java.lang.String"/>
+	<parameter name="cash" class="java.lang.String"/>
+	<parameter name="card" class="java.lang.String"/>
+	<parameter name="total" class="java.lang.String"/>
+	<parameter name="sale" class="java.lang.String"/>
+	<parameter name="cost" class="java.lang.String"/>
+	<parameter name="profit" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT * FROM `invoice`]]>
+	</queryString>
+	<field name="invoice_id" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cus_id" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cus_type" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="currentdate" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="subtotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="costtotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="discount" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nettotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="payment" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="balance" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="emp_id" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="202" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="400" height="200" uuid="6c4c8cec-0004-4c2a-b930-51ce8267c7d3"/>
+				<imageExpression><![CDATA["D:\\Greengrocers\\Greengrocers\\src\\com\\grocery\\reports\\logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="48" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="400" height="45" forecolor="#009933" backcolor="#009933" uuid="69161caf-63e2-4dc0-8e8d-6fd3d1842ad5"/>
+				<staticText>
+					<reportElement x="0" y="0" width="39" height="26" forecolor="#FFFFFF" uuid="a2d68876-8d80-4cf9-8d83-86d0ee23efb9"/>
+					<textElement>
+						<font size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[To]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="202" y="0" width="39" height="26" forecolor="#FFFFFF" uuid="b3122a91-c35c-4184-8bee-7fb357a70638"/>
+					<textElement>
+						<font size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[From]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="55" y="0" width="121" height="26" forecolor="#FFFFFF" uuid="8a8b3c35-fd11-43f4-b69f-530e4c34d775"/>
+					<textElement>
+						<font size="14" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{to_date}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="257" y="0" width="143" height="26" forecolor="#FFFFFF" uuid="8c7bb66e-abd3-4013-8ddd-f626ce3f7c67"/>
+					<textElement>
+						<font size="14" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{from_date}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="35" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="400" height="35" uuid="ef9deb88-ba9f-46a2-ad21-4fc913a6a0a2"/>
+				<staticText>
+					<reportElement x="118" y="0" width="139" height="35" uuid="3429f447-2d96-42c1-b17b-4a637e9109fb"/>
+					<textElement>
+						<font size="24" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Summary]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="347" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="37" width="100" height="100" uuid="1303a218-935f-4684-9f65-6ed9cd5dc5da"/>
+				<imageExpression><![CDATA["D:\\Greengrocers\\Greengrocers\\src\\com\\grocery\\reports\\2331941.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="141" y="37" width="100" height="100" uuid="36637744-b6a5-4ae3-b008-c8ebc23bc15c"/>
+				<imageExpression><![CDATA["D:\\Greengrocers\\Greengrocers\\src\\com\\grocery\\reports\\2331942.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="300" y="37" width="100" height="100" uuid="c7880729-1ae5-4cab-aac3-f407ead08de9"/>
+				<imageExpression><![CDATA["D:\\Greengrocers\\Greengrocers\\src\\com\\grocery\\reports\\2331943.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="0" y="206" width="100" height="100" uuid="78aabf12-d1b3-47be-98c3-6dea67e9cd0f"/>
+				<imageExpression><![CDATA["D:\\Greengrocers\\Greengrocers\\src\\com\\grocery\\reports\\2331944.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="141" y="206" width="100" height="100" uuid="14cef523-f93c-489c-b960-6b33e50e295b"/>
+				<imageExpression><![CDATA["D:\\Greengrocers\\Greengrocers\\src\\com\\grocery\\reports\\2331945.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="300" y="206" width="100" height="100" uuid="2ae25b5d-406e-45f4-8958-ce0f1c545020"/>
+				<imageExpression><![CDATA["D:\\Greengrocers\\Greengrocers\\src\\com\\grocery\\reports\\2331946.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="17" width="100" height="20" uuid="a15424da-a6b6-4260-8cd7-1c039f81be5f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cash]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="17" width="100" height="20" uuid="3dd746f3-b745-4055-ba22-7afbb200bba7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Card]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="17" width="100" height="20" uuid="c2b66ea6-bced-4971-ab64-264938ecdb7e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="186" width="100" height="20" uuid="e53f0641-f5d0-4524-9008-9f78fefff7a3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sale]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="141" y="186" width="100" height="20" uuid="0303b553-edb8-4c17-b845-215061f2e4df"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cost]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="186" width="100" height="20" uuid="3b08e49c-1381-4213-b8bc-f781352ace91"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Profit]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="137" width="100" height="20" uuid="34e74d27-806a-4247-acf5-e1fa02581c52"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{cash}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="141" y="137" width="100" height="20" uuid="3fc9c9f9-2637-46ab-a65d-7ec85c9eaea3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{card}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="137" width="100" height="20" uuid="a1a027a5-865c-4586-8c6f-2eeaaa51b316"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{total}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="306" width="100" height="20" uuid="28a64e3b-ddd5-4704-8d16-78e58dde515d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{sale}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="306" width="100" height="20" uuid="bea672bd-538e-4d91-9e98-fcbedd9a1faa"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{profit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="141" y="306" width="100" height="20" uuid="b90f524f-b604-4dc4-81b9-94c18e388c9f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{cost}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="1" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="24" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="400" height="24" forecolor="#009933" backcolor="#009933" uuid="16e71b78-94e6-4647-ab8e-42a2a4108854"/>
+				<textField pattern="dd/MM/yyyy h.mm a">
+					<reportElement x="0" y="0" width="141" height="20" forecolor="#FFFFFF" uuid="20816e17-d186-4459-ba7e-db95cfd23db4"/>
+					<textElement textAlignment="Justified">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="257" y="0" width="143" height="20" forecolor="#FFFFFF" uuid="684ff7f7-f830-4e66-9998-21eb6b3ee614"/>
+					<textElement textAlignment="Right">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

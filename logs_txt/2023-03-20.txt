@@ -1,0 +1,1 @@
+INFO    2023-03-20 13:52:08,807 [AWT-EventQueue-0] com.grocery.main.sub.Login  login - EMP7 Login Successfully
